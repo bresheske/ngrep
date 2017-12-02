@@ -1,0 +1,21 @@
+{
+  "name": "ngrep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc -w",
+    "build": "nexe main.js -o ngrep.exe",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "async-file": "^2.0.2",
+    "minimist": "^1.2.0",
+    "nexe": "^2.0.0-rc.22",
+    "typescript": "^2.6.2"
+  }
+}
